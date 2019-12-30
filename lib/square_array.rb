@@ -1,12 +1,22 @@
-counter = 0
+# counter = 0
 
+# def square_array(array)
+#   while counter < array.length
+#     array[counter] = array[counter] ** 2
+#     counter += 1
+#   end
+#   return array
+# end
 def square_array(array)
+   counter = 0
+
   while counter < array.length
     array[counter] = array[counter] ** 2
     counter += 1
   end
   return array
-end
+end 	
+end 
 
 
 
