@@ -2,7 +2,7 @@ counter = 0
 def square_array(numbers)
 
   while counter < numbers.length
-  p counter ** 2
+  numbers[counter]
   counter += 1
 end
 end
