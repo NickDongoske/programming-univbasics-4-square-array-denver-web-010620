@@ -1,6 +1,6 @@
-# numbers = [1, 2, 3]
+counter = 0
 def square_array(numbers)
-counter = 1
+
   while counter <= numbers.length
   p counter ** 2
   counter += 1
